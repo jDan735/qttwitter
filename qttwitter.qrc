@@ -1,7 +1,22 @@
 <RCC>
-  <qresource prefix="newPrefix">
-    <file>img/example.jpg</file>
-    <file>img/600x200.jpg</file>
-    <file>img/mAIV3fEU_400x400.jpg</file>
+  <qresource prefix="@navalny">
+    <file>img/@navalny/600x200</file>
+    <file>img/@navalny/h-qrVrmY_400x400.jpg</file>
+  </qresource>
+  <qresource prefix="default">
+    <file>img/default/profile_bg.png</file>
+  </qresource>
+  <qresource prefix="@max_katz">
+    <file>img/@max_katz/5vBuo9nc_400x400.jpg</file>
+    <file>img/@max_katz/600x200</file>
+  </qresource>
+  <qresource prefix="@PutinGame">
+    <file>img/@PutinGame/600x200</file>
+    <file>img/@PutinGame/r7MLH5S3_400x400.jpeg</file>
+  </qresource>
+  <qresource prefix="@jDan734">
+    <file>img/@jDan734/600x200.jpg</file>
+    <file>img/@jDan734/example.jpg</file>
+    <file>img/@jDan734/mAIV3fEU_400x400.jpg</file>
   </qresource>
 </RCC>
