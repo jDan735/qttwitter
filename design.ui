@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Twitter</string>
+   <string>QtTwitter</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
@@ -24,21 +24,16 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>6</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
-      <string>My (@jDan734)</string>
+      <string>@jDan734</string>
      </attribute>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>@govnover</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_3">
-     <attribute name="title">
-      <string>@mudakoff</string>
      </attribute>
     </widget>
     <widget class="QWidget" name="tab_4">
@@ -49,16 +44,6 @@
     <widget class="QWidget" name="tab_5">
      <attribute name="title">
       <string>@max_katz</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_6">
-     <attribute name="title">
-      <string>@lupineboy</string>
-     </attribute>
-    </widget>
-    <widget class="QWidget" name="tab_7">
-     <attribute name="title">
-      <string>@mpltnv</string>
      </attribute>
     </widget>
    </widget>
