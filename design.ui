@@ -18,6 +18,10 @@
   <property name="windowTitle">
    <string>QtTwitter</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="qttwitter.qrc">
+    <normaloff>:/default/img/app/haikutwitter64.png</normaloff>:/default/img/app/haikutwitter64.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">

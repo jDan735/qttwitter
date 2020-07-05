@@ -4,7 +4,7 @@
     <file>img/@navalny/h-qrVrmY_400x400.jpg</file>
   </qresource>
   <qresource prefix="default">
-    <file>img/default/profile_bg.png</file>
+    <file>img/app/haikutwitter64.png</file>
   </qresource>
   <qresource prefix="@max_katz">
     <file>img/@max_katz/5vBuo9nc_400x400.jpg</file>
