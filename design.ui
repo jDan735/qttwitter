@@ -875,6 +875,10 @@
      <property name="title">
       <string>Font size</string>
      </property>
+     <property name="icon">
+      <iconset resource="qttwitter.qrc">
+       <normaloff>:/default/img/app/Prefs_Fonts.png</normaloff>:/default/img/app/Prefs_Fonts.png</iconset>
+     </property>
      <addaction name="actionIncrease"/>
      <addaction name="actionReduce"/>
      <addaction name="actionDefault"/>
@@ -910,6 +914,10 @@
    </property>
   </action>
   <action name="actionEnter_to_Twitter">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/Action_Login.png</normaloff>:/default/img/app/Action_Login.png</iconset>
+   </property>
    <property name="text">
     <string>Enter to Twitter</string>
    </property>
@@ -923,6 +931,10 @@
    </property>
   </action>
   <action name="actionUpdate">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/Server_NewsFeed.png</normaloff>:/default/img/app/Server_NewsFeed.png</iconset>
+   </property>
    <property name="text">
     <string>Update</string>
    </property>
@@ -931,6 +943,10 @@
    </property>
   </action>
   <action name="actionQuit_2">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/Action_GoBack_3_Large.png</normaloff>:/default/img/app/Action_GoBack_3_Large.png</iconset>
+   </property>
    <property name="text">
     <string>Quit</string>
    </property>
@@ -963,41 +979,73 @@
    </property>
   </action>
   <action name="actionFind_user">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/App_TextSearch.png</normaloff>:/default/img/app/App_TextSearch.png</iconset>
+   </property>
    <property name="text">
     <string>Find user</string>
    </property>
   </action>
   <action name="actionFind_user_by">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/App_TextSearch.png</normaloff>:/default/img/app/App_TextSearch.png</iconset>
+   </property>
    <property name="text">
     <string>Find user by @</string>
    </property>
   </action>
   <action name="actionFind_tweets_by">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/App_TextSearch.png</normaloff>:/default/img/app/App_TextSearch.png</iconset>
+   </property>
    <property name="text">
     <string>Find tweets by #</string>
    </property>
   </action>
   <action name="actionIncrease">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/List_Add.png</normaloff>:/default/img/app/List_Add.png</iconset>
+   </property>
    <property name="text">
     <string>Increase</string>
    </property>
   </action>
   <action name="actionReduce">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/Action_Stop_1.png</normaloff>:/default/img/app/Action_Stop_1.png</iconset>
+   </property>
    <property name="text">
     <string>Reduce</string>
    </property>
   </action>
   <action name="actionDefault">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/Prefs_Fonts.png</normaloff>:/default/img/app/Prefs_Fonts.png</iconset>
+   </property>
    <property name="text">
     <string>Default</string>
    </property>
   </action>
   <action name="actionAbout_QT">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/qt</normaloff>:/default/img/app/qt</iconset>
+   </property>
    <property name="text">
     <string>About QT</string>
    </property>
   </action>
   <action name="actionAbout_QtTwitter">
+   <property name="icon">
+    <iconset resource="qttwitter.qrc">
+     <normaloff>:/default/img/app/haikutwitter64.png</normaloff>:/default/img/app/haikutwitter64.png</iconset>
+   </property>
    <property name="text">
     <string>About QtTwitter</string>
    </property>

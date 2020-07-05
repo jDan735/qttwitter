@@ -4,6 +4,17 @@
     <file>img/@navalny/h-qrVrmY_400x400.jpg</file>
   </qresource>
   <qresource prefix="default">
+    <file>img/app/qt</file>
+    <file>img/app/Alert_Info.png</file>
+    <file>img/app/Action_Login.png</file>
+    <file>img/app/Action_Logout.png</file>
+    <file>img/app/Server_NewsFeed.png</file>
+    <file>img/app/App_TextSearch.png</file>
+    <file>img/app/Action_Stop_1.png</file>
+    <file>img/app/List_Add.png</file>
+    <file>img/app/Prefs_Fonts.png</file>
+    <file>img/app/Mail_Forward.png</file>
+    <file>img/app/Action_GoBack_3_Large.png</file>
     <file>img/app/haikutwitter64.png</file>
   </qresource>
   <qresource prefix="@max_katz">
