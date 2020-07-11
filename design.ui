@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>395</width>
-    <height>507</height>
+    <width>403</width>
+    <height>518</height>
    </rect>
   </property>
   <property name="font">
@@ -27,10 +27,13 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
-      <width>391</width>
-      <height>481</height>
+      <y>10</y>
+      <width>411</width>
+      <height>491</height>
      </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
     </property>
     <property name="styleSheet">
      <string notr="true">width: </string>
@@ -45,7 +48,7 @@
      <widget class="QTabWidget" name="tabWidget_2">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>10</x>
         <y>130</y>
         <width>381</width>
         <height>321</height>
@@ -96,7 +99,7 @@
        <rect>
         <x>110</x>
         <y>10</y>
-        <width>271</width>
+        <width>281</width>
         <height>111</height>
        </rect>
       </property>
@@ -995,13 +998,31 @@
      </widget>
     </widget>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:#a0a0a0</string>
+    </property>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>tabWidget</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>395</width>
+     <width>403</width>
      <height>22</height>
     </rect>
    </property>
