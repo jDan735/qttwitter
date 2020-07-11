@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>399</width>
-    <height>616</height>
+    <width>395</width>
+    <height>507</height>
    </rect>
   </property>
   <property name="font">
@@ -29,7 +29,7 @@
       <x>0</x>
       <y>0</y>
       <width>391</width>
-      <height>591</height>
+      <height>481</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -42,115 +42,13 @@
      <attribute name="title">
       <string>@jDan734</string>
      </attribute>
-     <widget class="QLabel" name="label_3">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>140</y>
-        <width>371</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>Кайзер öф Раша</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>170</y>
-        <width>61</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: #555</string>
-      </property>
-      <property name="text">
-       <string>Following</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_8">
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>170</y>
-        <width>71</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: #555</string>
-      </property>
-      <property name="text">
-       <string>Followers</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_9">
-      <property name="geometry">
-       <rect>
-        <x>100</x>
-        <y>170</y>
-        <width>21</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>23</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_10">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>170</y>
-        <width>21</width>
-        <height>21</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>98</string>
-      </property>
-     </widget>
      <widget class="QTabWidget" name="tabWidget_2">
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>200</y>
+        <y>130</y>
         <width>381</width>
-        <height>361</height>
+        <height>321</height>
        </rect>
       </property>
       <property name="currentIndex">
@@ -177,43 +75,11 @@
        </attribute>
       </widget>
      </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>381</width>
-        <height>111</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true"/>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width=&quot;381&quot; height=&quot;111&quot; src=&quot;:/@jDan734/img/@jDan734/600x200.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
-     <widget class="QLabel" name="label_2">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>40</y>
-        <width>91</width>
-        <height>91</height>
-       </rect>
-      </property>
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;img width=91 src=&quot;:/@jDan734/img/@jDan734/mAIV3fEU_400x400.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-      </property>
-     </widget>
      <widget class="QFrame" name="frame_2">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>10</y>
         <width>91</width>
         <height>91</height>
        </rect>
@@ -225,39 +91,265 @@
        <enum>QFrame::Raised</enum>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QFrame" name="frame_5">
       <property name="geometry">
        <rect>
-        <x>330</x>
-        <y>90</y>
-        <width>41</width>
-        <height>41</height>
+        <x>110</x>
+        <y>10</y>
+        <width>271</width>
+        <height>111</height>
        </rect>
       </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>231</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Кайзер öф Раша</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>71</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:#555</string>
+       </property>
+       <property name="text">
+        <string>@jDan734</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>49</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Ukraine</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>60</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Joined 11/19</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width=21 src=&quot;:/default/img/app/Misc_Earth.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>60</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width=16 src=&quot;:/default/img/app/App_Clock.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>98</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>80</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #555</string>
+       </property>
+       <property name="text">
+        <string>Following</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>80</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #555</string>
+       </property>
+       <property name="text">
+        <string>Followers</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>80</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>23</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="qttwitter.qrc">
+         <normaloff>:/default/img/app/Website_Edit_Profile.png</normaloff>:/default/img/app/Website_Edit_Profile.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>32</width>
+         <height>32</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>91</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset resource="qttwitter.qrc">
-        <normaloff>:/default/img/app/Website_Edit_Profile.png</normaloff>:/default/img/app/Website_Edit_Profile.png</iconset>
-      </property>
-      <property name="iconSize">
-       <size>
-        <width>32</width>
-        <height>32</height>
-       </size>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/@jDan734/img/@jDan734/image.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <zorder>label</zorder>
-     <zorder>label_3</zorder>
-     <zorder>label_7</zorder>
-     <zorder>label_8</zorder>
-     <zorder>label_9</zorder>
-     <zorder>label_10</zorder>
-     <zorder>tabWidget_2</zorder>
      <zorder>label_2</zorder>
+     <zorder>tabWidget_2</zorder>
      <zorder>frame_2</zorder>
-     <zorder>pushButton_2</zorder>
+     <zorder>frame_5</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
@@ -269,21 +361,21 @@
         <x>0</x>
         <y>0</y>
         <width>381</width>
-        <height>111</height>
+        <height>131</height>
        </rect>
       </property>
       <property name="styleSheet">
        <string notr="true"/>
       </property>
       <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width=&quot;381&quot; height=&quot;111&quot; src=&quot;:/@navalny/img/@navalny/600x200&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img width=&quot;381&quot; height=&quot;131&quot; src=&quot;:/@navalny/img/@navalny/600x200&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_5">
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>10</y>
         <width>91</width>
         <height>91</height>
        </rect>
@@ -301,17 +393,17 @@
      <widget class="QLabel" name="label_6">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>140</y>
+        <x>120</x>
+        <y>20</y>
         <width>371</width>
         <height>31</height>
        </rect>
       </property>
       <property name="font">
        <font>
-        <pointsize>20</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>18</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
@@ -321,8 +413,8 @@
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
-        <x>10</x>
-        <y>170</y>
+        <x>120</x>
+        <y>90</y>
         <width>41</width>
         <height>21</height>
        </rect>
@@ -341,8 +433,8 @@
      <widget class="QLabel" name="label_12">
       <property name="geometry">
        <rect>
-        <x>50</x>
-        <y>170</y>
+        <x>160</x>
+        <y>90</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -362,8 +454,8 @@
      <widget class="QLabel" name="label_13">
       <property name="geometry">
        <rect>
-        <x>120</x>
-        <y>170</y>
+        <x>230</x>
+        <y>90</y>
         <width>41</width>
         <height>21</height>
        </rect>
@@ -382,8 +474,8 @@
      <widget class="QLabel" name="label_14">
       <property name="geometry">
        <rect>
-        <x>160</x>
-        <y>170</y>
+        <x>270</x>
+        <y>90</y>
         <width>71</width>
         <height>21</height>
        </rect>
@@ -404,9 +496,9 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>200</y>
+        <y>140</y>
         <width>381</width>
-        <height>361</height>
+        <height>421</height>
        </rect>
       </property>
       <property name="currentIndex">
@@ -437,7 +529,7 @@
       <property name="geometry">
        <rect>
         <x>10</x>
-        <y>40</y>
+        <y>10</y>
         <width>91</width>
         <height>91</height>
        </rect>
@@ -449,6 +541,70 @@
        <enum>QFrame::Raised</enum>
       </property>
      </widget>
+     <widget class="QFrame" name="frame_6">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>261</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Noto Sans Display</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:#555</string>
+       </property>
+       <property name="text">
+        <string>@navalny</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>49</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>label_4</zorder>
+     <zorder>frame_6</zorder>
+     <zorder>label_5</zorder>
+     <zorder>label_6</zorder>
+     <zorder>label_11</zorder>
+     <zorder>label_12</zorder>
+     <zorder>label_13</zorder>
+     <zorder>label_14</zorder>
+     <zorder>tabWidget_3</zorder>
+     <zorder>frame</zorder>
     </widget>
     <widget class="QWidget" name="tab_4">
      <attribute name="title">
@@ -845,7 +1001,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>399</width>
+     <width>395</width>
      <height>22</height>
     </rect>
    </property>

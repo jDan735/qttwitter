@@ -4,6 +4,8 @@
     <file>img/@navalny/h-qrVrmY_400x400.jpg</file>
   </qresource>
   <qresource prefix="default">
+    <file>img/app/Misc_Earth.png</file>
+    <file>img/app/App_Clock.png</file>
     <file>img/app/Website_Edit_Profile.png</file>
     <file>img/app/qt</file>
     <file>img/app/Alert_Info.png</file>
@@ -27,6 +29,8 @@
     <file>img/@PutinGame/r7MLH5S3_400x400.jpeg</file>
   </qresource>
   <qresource prefix="@jDan734">
+    <file>img/@jDan734/image.jpg</file>
+    <file>img/@jDan734/bg.jpg</file>
     <file>img/@jDan734/600x200.jpg</file>
     <file>img/@jDan734/example.jpg</file>
     <file>img/@jDan734/mAIV3fEU_400x400.jpg</file>
