@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="default">
+    <file>img/app/haikutwitter64.png</file>
+  </qresource>
+</RCC>

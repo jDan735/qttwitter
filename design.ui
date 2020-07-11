@@ -7,8 +7,26 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>518</height>
+    <height>526</height>
    </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>526</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>526</height>
+   </size>
   </property>
   <property name="font">
    <font>
@@ -48,7 +66,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>0</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideNone</enum>
@@ -75,8 +93,38 @@
         <x>10</x>
         <y>110</y>
         <width>381</width>
-        <height>341</height>
+        <height>351</height>
        </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>381</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>381</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="sizeIncrement">
+       <size>
+        <width>381</width>
+        <height>351</height>
+       </size>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>381</width>
+        <height>351</height>
+       </size>
       </property>
       <property name="currentIndex">
        <number>0</number>
@@ -488,7 +536,7 @@
         <x>10</x>
         <y>110</y>
         <width>381</width>
-        <height>341</height>
+        <height>351</height>
        </rect>
       </property>
       <property name="currentIndex">
@@ -664,7 +712,7 @@
         <x>10</x>
         <y>110</y>
         <width>381</width>
-        <height>341</height>
+        <height>351</height>
        </rect>
       </property>
       <property name="currentIndex">
@@ -889,7 +937,7 @@
         <x>10</x>
         <y>110</y>
         <width>381</width>
-        <height>341</height>
+        <height>351</height>
        </rect>
       </property>
       <property name="currentIndex">
