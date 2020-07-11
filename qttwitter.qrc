@@ -4,6 +4,10 @@
     <file>img/@navalny/h-qrVrmY_400x400.jpg</file>
   </qresource>
   <qresource prefix="default">
+    <file>img/app/Mail_Reply.png</file>
+    <file>img/app/HaikuDepot_StarBlue.png</file>
+    <file>img/app/Mail_Forward.png</file>
+    <file>img/app/Website_Comment.png</file>
     <file>img/app/Misc_Earth.png</file>
     <file>img/app/App_Clock.png</file>
     <file>img/app/Website_Edit_Profile.png</file>
