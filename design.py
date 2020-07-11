@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(407, 518)
+        MainWindow.resize(403, 518)
         font = QtGui.QFont()
         font.setFamily("Noto Sans Display")
         MainWindow.setFont(font)
@@ -123,7 +123,7 @@ class Ui_MainWindow(object):
         self.label_9.setFont(font)
         self.label_9.setObjectName("label_9")
         self.pushButton_2 = QtWidgets.QPushButton(self.frame_5)
-        self.pushButton_2.setGeometry(QtCore.QRect(220, 60, 41, 41))
+        self.pushButton_2.setGeometry(QtCore.QRect(230, 60, 41, 41))
         self.pushButton_2.setText("")
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap(":/default/img/app/Website_Edit_Profile.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -387,7 +387,7 @@ class Ui_MainWindow(object):
         self.tabWidget.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 407, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 403, 22))
         font = QtGui.QFont()
         font.setFamily("Noto Sans Display")
         self.menubar.setFont(font)
