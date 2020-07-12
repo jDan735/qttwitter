@@ -8,11 +8,17 @@ class QtTwitter(QtWidgets.QMainWindow, design.Ui_MainWindow):
         self.setupUi(self)
         
         self.actionAbout_QtTwitter.triggered.connect(self.about_app)
+        self.actionAbout_QT.triggered.connect(self.about_qt)
         
     def about_app(self):
     	import about
     	modal = about.AboutApp()
     	modal.exec_()
+    	
+    def about_qt(self):
+        import aboutqtcode
+        modal = aboutqtcode.AboutQt()
+        modal.exec_()
 
 def main():
     app = QtWidgets.QApplication(sys.argv)

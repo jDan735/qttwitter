@@ -14,14 +14,14 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.setWindowModality(QtCore.Qt.WindowModal)
-        Dialog.resize(337, 280)
+        Dialog.resize(299, 248)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(Dialog.sizePolicy().hasHeightForWidth())
         Dialog.setSizePolicy(sizePolicy)
-        Dialog.setMinimumSize(QtCore.QSize(337, 280))
-        Dialog.setMaximumSize(QtCore.QSize(337, 280))
+        Dialog.setMinimumSize(QtCore.QSize(299, 248))
+        Dialog.setMaximumSize(QtCore.QSize(299, 248))
         Dialog.setBaseSize(QtCore.QSize(337, 291))
         Dialog.setFocusPolicy(QtCore.Qt.ClickFocus)
         Dialog.setContextMenuPolicy(QtCore.Qt.NoContextMenu)
@@ -54,12 +54,12 @@ class Ui_Dialog(object):
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         self.textBrowser = QtWidgets.QTextBrowser(Dialog)
-        self.textBrowser.setGeometry(QtCore.QRect(80, 80, 241, 151))
+        self.textBrowser.setGeometry(QtCore.QRect(80, 80, 211, 121))
         self.textBrowser.setFocusPolicy(QtCore.Qt.NoFocus)
         self.textBrowser.setAcceptDrops(False)
         self.textBrowser.setObjectName("textBrowser")
         self.pushButton = QtWidgets.QPushButton(Dialog)
-        self.pushButton.setGeometry(QtCore.QRect(230, 240, 91, 31))
+        self.pushButton.setGeometry(QtCore.QRect(200, 210, 91, 31))
         self.pushButton.setAutoDefault(False)
         self.pushButton.setDefault(False)
         self.pushButton.setFlat(False)
@@ -82,8 +82,6 @@ class Ui_Dialog(object):
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.75pt;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8.75pt;\">Special Thanks:</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8.75pt;\">    @bloodyknight</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.75pt;\"><br /></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.75pt;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8.75pt;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8.75pt;\">Distributed on MIT license terms.</span></p></body></html>"))
         self.pushButton.setText(_translate("Dialog", "OK"))
